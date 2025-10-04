@@ -1,0 +1,33 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+        run:
+            working-directory: src
+    steps:
+      # 1️⃣ Check out your repository
+      - uses: actions/checkout@v4
+
+      # 2️⃣ Install .NET SDK
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      # 3️⃣ Restore dependencies
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # 4️⃣ Build (fail on warnings)
+      - name: Build
+        run: dotnet build --configuration Release --no-restore -warnaserror
+
+      # 5️⃣ Run tests (if you have a test project)
+      - name: Test
+        run: dotnet test --configuration Release --no-build --verbosity normal
