@@ -24,10 +24,7 @@ public class OptionTests
         value == ((Something<int>)value).Value).QuickCheckThrowOnFailure();
     
     [Test]
-    public static void SomethingsNeverHasAnyNones() => ForAll(OptionsOfInt(), options => 
-    options.Somethings() switch
-    {
-        var nones when nones.Any(n => n is Nothing<int>) => false,
-        _ => true
-    }).QuickCheckThrowOnFailure();
+    public static void SomethingsHasAllSomethingsFromOriginal() => ForAll(OptionsOfInt(), options => 
+        options.Count(o => o is Something<int>) == options.Somethings().Count()
+        ).QuickCheckThrowOnFailure();
 }
