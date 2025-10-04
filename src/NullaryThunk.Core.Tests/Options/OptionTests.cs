@@ -1,7 +1,8 @@
 #pragma warning disable CS8509
 using FsCheck;
-using FsCheck.Fluent;
+using FsCheck.FSharp;
 using NullaryThunk.Core.Options;
+using static FsCheck.Fluent.Prop;
 using static NullaryThunk.Core.Tests.Options.OptionGenerators;
 
 namespace NullaryThunk.Core.Tests.Options;
@@ -10,22 +11,23 @@ namespace NullaryThunk.Core.Tests.Options;
 public class OptionTests
 {
     [Test]
-    public static void ArbitraryOptionIntTest() => Prop.ForAll(OptionOfInt(), option =>
+    public static void ArbitraryOptionIntTest() => ForAll(OptionOfInt(),
+    pair => pair switch
     {
-        return option switch
-        {
-            (_ ,Nothing<int>) => true,
-            (var expected, Something<int>(var value)) when value == expected => true
-        };
+        (_ ,Nothing<int>) => true,
+        (var expected, Something<int>(var value)) when value == expected => true
     }).QuickCheckThrowOnFailure();
 
     [Test]
-    public static void SomethingsNeverHasAnyNones() => Prop.ForAll(OptionsOfInt(), options =>
+    public static void CastingIntToSomethingHasSameValueAsOriginalInt()
+        => ForAll(Arb.From(Integers), value =>
+        value == ((Something<int>)value).Value).QuickCheckThrowOnFailure();
+    
+    [Test]
+    public static void SomethingsNeverHasAnyNones() => ForAll(OptionsOfInt(), options => 
+    options.Somethings() switch
     {
-        return options.Somethings() switch
-        {
-            var nones when nones.Any(n => n is Nothing<int>) => false,
-            _ => true
-        };
+        var nones when nones.Any(n => n is Nothing<int>) => false,
+        _ => true
     }).QuickCheckThrowOnFailure();
 }
