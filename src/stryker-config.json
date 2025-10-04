@@ -1,0 +1,9 @@
+{
+
+    "stryker-config":
+    {
+        "solution": "NullaryThunk.Funky.sln",
+        "project": "NullaryThunk.Funky.Core",
+        "coverage-analysis": "off"
+    }
+}
