@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullaryThunk.Core", "NullaryThunk.Core\NullaryThunk.Core.csproj", "{1FDC607B-7044-4284-A84A-12C43250BC90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullaryThunk.Core.Tests", "NullaryThunk.Core.Tests\NullaryThunk.Core.Tests.csproj", "{C53EFF60-1535-462B-A8A5-687EB228C19F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1FDC607B-7044-4284-A84A-12C43250BC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FDC607B-7044-4284-A84A-12C43250BC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FDC607B-7044-4284-A84A-12C43250BC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53EFF60-1535-462B-A8A5-687EB228C19F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53EFF60-1535-462B-A8A5-687EB228C19F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53EFF60-1535-462B-A8A5-687EB228C19F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53EFF60-1535-462B-A8A5-687EB228C19F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
