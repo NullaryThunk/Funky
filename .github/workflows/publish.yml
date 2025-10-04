@@ -42,10 +42,7 @@ jobs:
 
       # 6️⃣ Pack
       - name: Pack NuGet package
-        run: dotnet pack ./NullaryThunk.Funky.Core/NullaryThunk.Funky.Core.csproj \
-            --configuration Release --no-build \
-            /p:PackageVersion=${GITHUB_REF_NAME#v} \
-            /p:ContinuousIntegrationBuild=true
+        run: dotnet pack ./NullaryThunk.Funky.Core/NullaryThunk.Funky.Core.csproj --no-build --configuration Release -p:PackageVersion=${GITHUB_REF_NAME#v}
 
       # 7️⃣ Publish to GitHub Packages
       - name: Publish package
