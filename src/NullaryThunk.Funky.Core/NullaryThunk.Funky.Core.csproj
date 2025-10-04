@@ -6,7 +6,6 @@
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>NullaryThunk.Funky</PackageId>
-        <Version>0.0.1</Version>
 
         <PackageTags>functional;fp;option;result;nullarythunk</PackageTags>
     </PropertyGroup>
