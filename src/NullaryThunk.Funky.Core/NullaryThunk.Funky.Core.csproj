@@ -4,7 +4,6 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>NullaryThunk.Funky</PackageId>
 
         <PackageTags>functional;fp;option;result;nullarythunk</PackageTags>
