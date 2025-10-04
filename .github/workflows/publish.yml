@@ -1,4 +1,4 @@
-name: Build, Test & Publish Package
+name: Build, Test & Pack
 
 on:
   push:
@@ -12,48 +12,38 @@ jobs:
     permissions:
       contents: read
       packages: write
+      id-token: write
 
     defaults:
       run:
         working-directory: src
 
     steps:
-      # 1️⃣ Checkout the repo
+      - name: NuGet login (OIDC → temp API key)
+        uses: NuGet/login@v1
+        id: login
+        with:
+          user: ${{ secrets.NUGET_USER }}
+
       - name: Checkout code
         uses: actions/checkout@v4
-
-      # 2️⃣ Setup .NET
+      
       - name: Setup .NET
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 10.0.x
-
-      # 3️⃣ Restore
+      
       - name: Restore dependencies
         run: dotnet restore
-
-      # 4️⃣ Build
+      
       - name: Build
         run: dotnet build --configuration Release --no-restore -warnaserror
 
-      # 5️⃣ Test
       - name: Run tests
         run: dotnet test --configuration Release --no-build --verbosity normal
-
-      # 6️⃣ Pack
+    
       - name: Pack NuGet package
         run: dotnet pack ./NullaryThunk.Funky.Core/NullaryThunk.Funky.Core.csproj --no-build --configuration Release -p:PackageVersion=${GITHUB_REF_NAME#v}
 
-      - name: Configure GitHub Packages source
-        env:
-            GH_OWNER: ${{ github.repository_owner }}
-        run: |
-            dotnet nuget add source "https://nuget.pkg.github.com/$GH_OWNER/index.json" \
-            --name "github" \
-            --username "$GH_OWNER" \
-            --password "${{ secrets.GITHUB_TOKEN }}" \
-            --store-password-in-clear-text
-        
-      # 7️⃣ Publish to GitHub Packages
-      - name: Publish package
-        run: dotnet nuget push "./NullaryThunk.Funky.Core/bin/Release/*.nupkg" --source "github" --api-key ${{ secrets.GITHUB_TOKEN }} --skip-duplicate
+      - name: NuGet push
+        run: dotnet nuget push "./NullaryThunk.Funky.Core/bin/Release/*.nupkg" --api-key ${{steps.login.outputs.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json
