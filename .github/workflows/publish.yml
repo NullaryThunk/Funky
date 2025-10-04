@@ -42,8 +42,7 @@ jobs:
 
       # 6️⃣ Pack
       - name: Pack NuGet package
-        run: mkdir -p ../artifacts/nuget
-            dotnet pack ./NullaryThunk.Funky.Core/NullaryThunk.Funky.Core.csproj \
+        run: dotnet pack ./NullaryThunk.Funky.Core/NullaryThunk.Funky.Core.csproj \
             --configuration Release --no-build \
             /p:PackageVersion=${GITHUB_REF_NAME#v} \
             /p:ContinuousIntegrationBuild=true
