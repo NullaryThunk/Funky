@@ -46,6 +46,4 @@ jobs:
 
       # 7️⃣ Publish to GitHub Packages
       - name: Publish package
-        run: dotnet nuget push "bin/Release/*.nupkg" \
-               --source "github" \
-               --api-key ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet nuget push "./NullaryThunk.Funky.Core/bin/Release/*.nupkg" --source "github" --api-key ${{ secrets.GITHUB_TOKEN }}
