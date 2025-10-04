@@ -10,12 +10,22 @@ namespace NullaryThunk.Core.Tests.Options;
 public class OptionTests
 {
     [Test]
-    public static void ArbitraryOptionIntTest() => Prop.ForAll(OptionsOfInt(), option =>
+    public static void ArbitraryOptionIntTest() => Prop.ForAll(OptionOfInt(), option =>
     {
         return option switch
         {
             (_ ,Nothing<int>) => true,
             (var expected, Something<int>(var value)) when value == expected => true
+        };
+    }).QuickCheckThrowOnFailure();
+
+    [Test]
+    public static void SomethingsNeverHasAnyNones() => Prop.ForAll(OptionsOfInt(), options =>
+    {
+        return options.Somethings() switch
+        {
+            var nones when nones.Any(n => n is Nothing<int>) => false,
+            _ => true
         };
     }).QuickCheckThrowOnFailure();
 }

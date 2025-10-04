@@ -6,7 +6,7 @@ namespace NullaryThunk.Core.Tests.Options;
 
 public static class OptionGenerators
 {
-    public static Arbitrary<(int Value,Option<int> Option)> OptionsOfInt()
+    public static Arbitrary<(int Value,Option<int> Option)> OptionOfInt()
     {
         var generator = Gen
             .Choose(int.MinValue, int.MaxValue)
@@ -14,4 +14,10 @@ public static class OptionGenerators
             .Or(Gen.Constant<(int, Option<int>)>((0,O.Nothing<int>())));
         return Arb.From(generator);
     }
+
+    public static Arbitrary<Option<int>[]> OptionsOfInt() =>
+        Arb.From(
+            Gen.Choose(int.MinValue, int.MaxValue)
+                .Select(Option<int> (value) => value.ToSomething())
+                .Or(Gen.Constant<Option<int>>(O.Nothing<int>())).ArrayOf());
 }
