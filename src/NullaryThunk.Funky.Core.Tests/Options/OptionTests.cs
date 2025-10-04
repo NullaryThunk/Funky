@@ -1,11 +1,11 @@
 #pragma warning disable CS8509
 using FsCheck;
 using FsCheck.FSharp;
-using NullaryThunk.Core.Options;
+using NullaryThunk.Funky.Core.Options;
 using static FsCheck.Fluent.Prop;
-using static NullaryThunk.Core.Tests.Options.OptionGenerators;
+using static NullaryThunk.Funky.Core.Tests.Options.OptionGenerators;
 
-namespace NullaryThunk.Core.Tests.Options;
+namespace NullaryThunk.Funky.Core.Tests.Options;
 
 [TestFixture]
 public class OptionTests

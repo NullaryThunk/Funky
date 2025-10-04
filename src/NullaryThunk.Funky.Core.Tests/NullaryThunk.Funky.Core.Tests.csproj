@@ -11,10 +11,11 @@
       <PackageReference Include="FsCheck" Version="3.3.1" />
       <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
       <PackageReference Include="NUnit" Version="4.4.0" />
+      <PackageReference Include="NUnit3TestAdapter" Version="5.1.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\NullaryThunk.Core\NullaryThunk.Core.csproj" />
+      <ProjectReference Include="..\NullaryThunk.Funky.Core\NullaryThunk.Funky.Core.csproj" />
     </ItemGroup>
 
 </Project>

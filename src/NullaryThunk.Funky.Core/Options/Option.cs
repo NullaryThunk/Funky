@@ -1,4 +1,4 @@
-namespace NullaryThunk.Core.Options;
+namespace NullaryThunk.Funky.Core.Options;
 
 public interface Option<out T> {}
 

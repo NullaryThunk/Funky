@@ -1,8 +1,8 @@
 using FsCheck;
 using FsCheck.Fluent;
-using NullaryThunk.Core.Options;
+using NullaryThunk.Funky.Core.Options;
 
-namespace NullaryThunk.Core.Tests.Options;
+namespace NullaryThunk.Funky.Core.Tests.Options;
 
 public static class OptionGenerators
 {

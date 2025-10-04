@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullaryThunk.Core", "NullaryThunk.Core\NullaryThunk.Core.csproj", "{1FDC607B-7044-4284-A84A-12C43250BC90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullaryThunk.Funky.Core", "NullaryThunk.Funky.Core\NullaryThunk.Funky.Core.csproj", "{1FDC607B-7044-4284-A84A-12C43250BC90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullaryThunk.Core.Tests", "NullaryThunk.Core.Tests\NullaryThunk.Core.Tests.csproj", "{C53EFF60-1535-462B-A8A5-687EB228C19F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullaryThunk.Funky.Core.Tests", "NullaryThunk.Funky.Core.Tests\NullaryThunk.Funky.Core.Tests.csproj", "{C53EFF60-1535-462B-A8A5-687EB228C19F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
