@@ -1,0 +1,380 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: NullaryThunk.Funky.Core.Options
+  name: NullaryThunk.Funky.Core.Options
+  href: api/NullaryThunk.Funky.Core.Options.html
+  commentId: N:NullaryThunk.Funky.Core.Options
+  fullName: NullaryThunk.Funky.Core.Options
+  nameWithType: NullaryThunk.Funky.Core.Options
+- uid: NullaryThunk.Funky.Core.Options.ISomething`1
+  name: ISomething<T>
+  href: api/NullaryThunk.Funky.Core.Options.ISomething-1.html
+  commentId: T:NullaryThunk.Funky.Core.Options.ISomething`1
+  name.vb: ISomething(Of T)
+  fullName: NullaryThunk.Funky.Core.Options.ISomething<T>
+  fullName.vb: NullaryThunk.Funky.Core.Options.ISomething(Of T)
+  nameWithType: ISomething<T>
+  nameWithType.vb: ISomething(Of T)
+- uid: NullaryThunk.Funky.Core.Options.ISomething`1.Value
+  name: Value
+  href: api/NullaryThunk.Funky.Core.Options.ISomething-1.html#NullaryThunk_Funky_Core_Options_ISomething_1_Value
+  commentId: P:NullaryThunk.Funky.Core.Options.ISomething`1.Value
+  fullName: NullaryThunk.Funky.Core.Options.ISomething<T>.Value
+  fullName.vb: NullaryThunk.Funky.Core.Options.ISomething(Of T).Value
+  nameWithType: ISomething<T>.Value
+  nameWithType.vb: ISomething(Of T).Value
+- uid: NullaryThunk.Funky.Core.Options.ISomething`1.Value*
+  name: Value
+  href: api/NullaryThunk.Funky.Core.Options.ISomething-1.html#NullaryThunk_Funky_Core_Options_ISomething_1_Value_
+  commentId: Overload:NullaryThunk.Funky.Core.Options.ISomething`1.Value
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Options.ISomething<T>.Value
+  fullName.vb: NullaryThunk.Funky.Core.Options.ISomething(Of T).Value
+  nameWithType: ISomething<T>.Value
+  nameWithType.vb: ISomething(Of T).Value
+- uid: NullaryThunk.Funky.Core.Options.Nothing
+  name: Nothing
+  href: api/NullaryThunk.Funky.Core.Options.Nothing.html
+  commentId: T:NullaryThunk.Funky.Core.Options.Nothing
+  fullName: NullaryThunk.Funky.Core.Options.Nothing
+  nameWithType: Nothing
+- uid: NullaryThunk.Funky.Core.Options.Nothing`1
+  name: Nothing<T>
+  href: api/NullaryThunk.Funky.Core.Options.Nothing-1.html
+  commentId: T:NullaryThunk.Funky.Core.Options.Nothing`1
+  name.vb: Nothing(Of T)
+  fullName: NullaryThunk.Funky.Core.Options.Nothing<T>
+  fullName.vb: NullaryThunk.Funky.Core.Options.Nothing(Of T)
+  nameWithType: Nothing<T>
+  nameWithType.vb: Nothing(Of T)
+- uid: NullaryThunk.Funky.Core.Options.O
+  name: O
+  href: api/NullaryThunk.Funky.Core.Options.O.html
+  commentId: T:NullaryThunk.Funky.Core.Options.O
+  fullName: NullaryThunk.Funky.Core.Options.O
+  nameWithType: O
+- uid: NullaryThunk.Funky.Core.Options.O.Nothing*
+  name: Nothing
+  href: api/NullaryThunk.Funky.Core.Options.O.html#NullaryThunk_Funky_Core_Options_O_Nothing_
+  commentId: Overload:NullaryThunk.Funky.Core.Options.O.Nothing
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Options.O.Nothing
+  nameWithType: O.Nothing
+- uid: NullaryThunk.Funky.Core.Options.O.Nothing``1
+  name: Nothing<T>()
+  href: api/NullaryThunk.Funky.Core.Options.O.html#NullaryThunk_Funky_Core_Options_O_Nothing__1
+  commentId: M:NullaryThunk.Funky.Core.Options.O.Nothing``1
+  name.vb: Nothing(Of T)()
+  fullName: NullaryThunk.Funky.Core.Options.O.Nothing<T>()
+  fullName.vb: NullaryThunk.Funky.Core.Options.O.Nothing(Of T)()
+  nameWithType: O.Nothing<T>()
+  nameWithType.vb: O.Nothing(Of T)()
+- uid: NullaryThunk.Funky.Core.Options.O.Somethings*
+  name: Somethings
+  href: api/NullaryThunk.Funky.Core.Options.O.html#NullaryThunk_Funky_Core_Options_O_Somethings_
+  commentId: Overload:NullaryThunk.Funky.Core.Options.O.Somethings
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Options.O.Somethings
+  nameWithType: O.Somethings
+- uid: NullaryThunk.Funky.Core.Options.O.Somethings``1(System.Collections.Generic.IEnumerable{NullaryThunk.Funky.Core.Options.Option{``0}})
+  name: Somethings<T>(IEnumerable<Option<T>>)
+  href: api/NullaryThunk.Funky.Core.Options.O.html#NullaryThunk_Funky_Core_Options_O_Somethings__1_System_Collections_Generic_IEnumerable_NullaryThunk_Funky_Core_Options_Option___0___
+  commentId: M:NullaryThunk.Funky.Core.Options.O.Somethings``1(System.Collections.Generic.IEnumerable{NullaryThunk.Funky.Core.Options.Option{``0}})
+  name.vb: Somethings(Of T)(IEnumerable(Of Option(Of T)))
+  fullName: NullaryThunk.Funky.Core.Options.O.Somethings<T>(System.Collections.Generic.IEnumerable<NullaryThunk.Funky.Core.Options.Option<T>>)
+  fullName.vb: NullaryThunk.Funky.Core.Options.O.Somethings(Of T)(System.Collections.Generic.IEnumerable(Of NullaryThunk.Funky.Core.Options.Option(Of T)))
+  nameWithType: O.Somethings<T>(IEnumerable<Option<T>>)
+  nameWithType.vb: O.Somethings(Of T)(IEnumerable(Of Option(Of T)))
+- uid: NullaryThunk.Funky.Core.Options.O.ToSomething*
+  name: ToSomething
+  href: api/NullaryThunk.Funky.Core.Options.O.html#NullaryThunk_Funky_Core_Options_O_ToSomething_
+  commentId: Overload:NullaryThunk.Funky.Core.Options.O.ToSomething
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Options.O.ToSomething
+  nameWithType: O.ToSomething
+- uid: NullaryThunk.Funky.Core.Options.O.ToSomething``1(``0)
+  name: ToSomething<T>(T)
+  href: api/NullaryThunk.Funky.Core.Options.O.html#NullaryThunk_Funky_Core_Options_O_ToSomething__1___0_
+  commentId: M:NullaryThunk.Funky.Core.Options.O.ToSomething``1(``0)
+  name.vb: ToSomething(Of T)(T)
+  fullName: NullaryThunk.Funky.Core.Options.O.ToSomething<T>(T)
+  fullName.vb: NullaryThunk.Funky.Core.Options.O.ToSomething(Of T)(T)
+  nameWithType: O.ToSomething<T>(T)
+  nameWithType.vb: O.ToSomething(Of T)(T)
+- uid: NullaryThunk.Funky.Core.Options.OptionFunctions
+  name: OptionFunctions
+  href: api/NullaryThunk.Funky.Core.Options.OptionFunctions.html
+  commentId: T:NullaryThunk.Funky.Core.Options.OptionFunctions
+  fullName: NullaryThunk.Funky.Core.Options.OptionFunctions
+  nameWithType: OptionFunctions
+- uid: NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr*
+  name: SomethingOr
+  href: api/NullaryThunk.Funky.Core.Options.OptionFunctions.html#NullaryThunk_Funky_Core_Options_OptionFunctions_SomethingOr_
+  commentId: Overload:NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr
+  nameWithType: OptionFunctions.SomethingOr
+- uid: NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr``1(NullaryThunk.Funky.Core.Options.Option{``0},``0)
+  name: SomethingOr<T>(Option<T>, T)
+  href: api/NullaryThunk.Funky.Core.Options.OptionFunctions.html#NullaryThunk_Funky_Core_Options_OptionFunctions_SomethingOr__1_NullaryThunk_Funky_Core_Options_Option___0____0_
+  commentId: M:NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr``1(NullaryThunk.Funky.Core.Options.Option{``0},``0)
+  name.vb: SomethingOr(Of T)(Option(Of T), T)
+  fullName: NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr<T>(NullaryThunk.Funky.Core.Options.Option<T>, T)
+  fullName.vb: NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr(Of T)(NullaryThunk.Funky.Core.Options.Option(Of T), T)
+  nameWithType: OptionFunctions.SomethingOr<T>(Option<T>, T)
+  nameWithType.vb: OptionFunctions.SomethingOr(Of T)(Option(Of T), T)
+- uid: NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr``2(NullaryThunk.Funky.Core.Options.Option{``0},System.Func{``0,``1},``1)
+  name: SomethingOr<T, R>(Option<T>, Func<T, R>, R)
+  href: api/NullaryThunk.Funky.Core.Options.OptionFunctions.html#NullaryThunk_Funky_Core_Options_OptionFunctions_SomethingOr__2_NullaryThunk_Funky_Core_Options_Option___0__System_Func___0___1____1_
+  commentId: M:NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr``2(NullaryThunk.Funky.Core.Options.Option{``0},System.Func{``0,``1},``1)
+  name.vb: SomethingOr(Of T, R)(Option(Of T), Func(Of T, R), R)
+  fullName: NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr<T, R>(NullaryThunk.Funky.Core.Options.Option<T>, System.Func<T, R>, R)
+  fullName.vb: NullaryThunk.Funky.Core.Options.OptionFunctions.SomethingOr(Of T, R)(NullaryThunk.Funky.Core.Options.Option(Of T), System.Func(Of T, R), R)
+  nameWithType: OptionFunctions.SomethingOr<T, R>(Option<T>, Func<T, R>, R)
+  nameWithType.vb: OptionFunctions.SomethingOr(Of T, R)(Option(Of T), Func(Of T, R), R)
+- uid: NullaryThunk.Funky.Core.Options.Option`1
+  name: Option<T>
+  href: api/NullaryThunk.Funky.Core.Options.Option-1.html
+  commentId: T:NullaryThunk.Funky.Core.Options.Option`1
+  name.vb: Option(Of T)
+  fullName: NullaryThunk.Funky.Core.Options.Option<T>
+  fullName.vb: NullaryThunk.Funky.Core.Options.Option(Of T)
+  nameWithType: Option<T>
+  nameWithType.vb: Option(Of T)
+- uid: NullaryThunk.Funky.Core.Options.Something
+  name: Something
+  href: api/NullaryThunk.Funky.Core.Options.Something.html
+  commentId: T:NullaryThunk.Funky.Core.Options.Something
+  fullName: NullaryThunk.Funky.Core.Options.Something
+  nameWithType: Something
+- uid: NullaryThunk.Funky.Core.Options.Something`1
+  name: Something<T>
+  href: api/NullaryThunk.Funky.Core.Options.Something-1.html
+  commentId: T:NullaryThunk.Funky.Core.Options.Something`1
+  name.vb: Something(Of T)
+  fullName: NullaryThunk.Funky.Core.Options.Something<T>
+  fullName.vb: NullaryThunk.Funky.Core.Options.Something(Of T)
+  nameWithType: Something<T>
+  nameWithType.vb: Something(Of T)
+- uid: NullaryThunk.Funky.Core.Options.Something`1.#ctor(`0)
+  name: Something(T)
+  href: api/NullaryThunk.Funky.Core.Options.Something-1.html#NullaryThunk_Funky_Core_Options_Something_1__ctor__0_
+  commentId: M:NullaryThunk.Funky.Core.Options.Something`1.#ctor(`0)
+  name.vb: New(T)
+  fullName: NullaryThunk.Funky.Core.Options.Something<T>.Something(T)
+  fullName.vb: NullaryThunk.Funky.Core.Options.Something(Of T).New(T)
+  nameWithType: Something<T>.Something(T)
+  nameWithType.vb: Something(Of T).New(T)
+- uid: NullaryThunk.Funky.Core.Options.Something`1.#ctor*
+  name: Something
+  href: api/NullaryThunk.Funky.Core.Options.Something-1.html#NullaryThunk_Funky_Core_Options_Something_1__ctor_
+  commentId: Overload:NullaryThunk.Funky.Core.Options.Something`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: NullaryThunk.Funky.Core.Options.Something<T>.Something
+  fullName.vb: NullaryThunk.Funky.Core.Options.Something(Of T).New
+  nameWithType: Something<T>.Something
+  nameWithType.vb: Something(Of T).New
+- uid: NullaryThunk.Funky.Core.Options.Something`1.Value
+  name: Value
+  href: api/NullaryThunk.Funky.Core.Options.Something-1.html#NullaryThunk_Funky_Core_Options_Something_1_Value
+  commentId: P:NullaryThunk.Funky.Core.Options.Something`1.Value
+  fullName: NullaryThunk.Funky.Core.Options.Something<T>.Value
+  fullName.vb: NullaryThunk.Funky.Core.Options.Something(Of T).Value
+  nameWithType: Something<T>.Value
+  nameWithType.vb: Something(Of T).Value
+- uid: NullaryThunk.Funky.Core.Options.Something`1.Value*
+  name: Value
+  href: api/NullaryThunk.Funky.Core.Options.Something-1.html#NullaryThunk_Funky_Core_Options_Something_1_Value_
+  commentId: Overload:NullaryThunk.Funky.Core.Options.Something`1.Value
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Options.Something<T>.Value
+  fullName.vb: NullaryThunk.Funky.Core.Options.Something(Of T).Value
+  nameWithType: Something<T>.Value
+  nameWithType.vb: Something(Of T).Value
+- uid: NullaryThunk.Funky.Core.Options.Something`1.op_Implicit(`0)~NullaryThunk.Funky.Core.Options.Something{`0}
+  name: implicit operator Something<T>(T)
+  href: api/NullaryThunk.Funky.Core.Options.Something-1.html#NullaryThunk_Funky_Core_Options_Something_1_op_Implicit__0__NullaryThunk_Funky_Core_Options_Something__0_
+  commentId: M:NullaryThunk.Funky.Core.Options.Something`1.op_Implicit(`0)~NullaryThunk.Funky.Core.Options.Something{`0}
+  name.vb: CType(T)
+  fullName: NullaryThunk.Funky.Core.Options.Something<T>.implicit operator NullaryThunk.Funky.Core.Options.Something<T>(T)
+  fullName.vb: NullaryThunk.Funky.Core.Options.Something(Of T).CType(T)
+  nameWithType: Something<T>.implicit operator Something<T>(T)
+  nameWithType.vb: Something(Of T).CType(T)
+- uid: NullaryThunk.Funky.Core.Options.Something`1.op_Implicit*
+  name: implicit operator
+  href: api/NullaryThunk.Funky.Core.Options.Something-1.html#NullaryThunk_Funky_Core_Options_Something_1_op_Implicit_
+  commentId: Overload:NullaryThunk.Funky.Core.Options.Something`1.op_Implicit
+  isSpec: "True"
+  name.vb: CType
+  fullName: NullaryThunk.Funky.Core.Options.Something<T>.implicit operator
+  fullName.vb: NullaryThunk.Funky.Core.Options.Something(Of T).CType
+  nameWithType: Something<T>.implicit operator
+  nameWithType.vb: Something(Of T).CType
+- uid: NullaryThunk.Funky.Core.Tests.Options
+  name: NullaryThunk.Funky.Core.Tests.Options
+  href: api/NullaryThunk.Funky.Core.Tests.Options.html
+  commentId: N:NullaryThunk.Funky.Core.Tests.Options
+  fullName: NullaryThunk.Funky.Core.Tests.Options
+  nameWithType: NullaryThunk.Funky.Core.Tests.Options
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators
+  name: OptionGenerators
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.html
+  commentId: T:NullaryThunk.Funky.Core.Tests.Options.OptionGenerators
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators
+  nameWithType: OptionGenerators
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.Integers
+  name: Integers
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.html#NullaryThunk_Funky_Core_Tests_Options_OptionGenerators_Integers
+  commentId: P:NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.Integers
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.Integers
+  nameWithType: OptionGenerators.Integers
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.Integers*
+  name: Integers
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.html#NullaryThunk_Funky_Core_Tests_Options_OptionGenerators_Integers_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.Integers
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.Integers
+  nameWithType: OptionGenerators.Integers
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionOfInt
+  name: OptionOfInt()
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.html#NullaryThunk_Funky_Core_Tests_Options_OptionGenerators_OptionOfInt
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionOfInt
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionOfInt()
+  nameWithType: OptionGenerators.OptionOfInt()
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionOfInt*
+  name: OptionOfInt
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.html#NullaryThunk_Funky_Core_Tests_Options_OptionGenerators_OptionOfInt_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionOfInt
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionOfInt
+  nameWithType: OptionGenerators.OptionOfInt
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionsOfInt
+  name: OptionsOfInt()
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.html#NullaryThunk_Funky_Core_Tests_Options_OptionGenerators_OptionsOfInt
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionsOfInt
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionsOfInt()
+  nameWithType: OptionGenerators.OptionsOfInt()
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionsOfInt*
+  name: OptionsOfInt
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.html#NullaryThunk_Funky_Core_Tests_Options_OptionGenerators_OptionsOfInt_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionsOfInt
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.OptionsOfInt
+  nameWithType: OptionGenerators.OptionsOfInt
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionTests
+  name: OptionTests
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.html
+  commentId: T:NullaryThunk.Funky.Core.Tests.Options.OptionTests
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionTests
+  nameWithType: OptionTests
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionTests.ArbitraryOptionIntTest
+  name: ArbitraryOptionIntTest()
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.html#NullaryThunk_Funky_Core_Tests_Options_OptionTests_ArbitraryOptionIntTest
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.OptionTests.ArbitraryOptionIntTest
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionTests.ArbitraryOptionIntTest()
+  nameWithType: OptionTests.ArbitraryOptionIntTest()
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionTests.ArbitraryOptionIntTest*
+  name: ArbitraryOptionIntTest
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.html#NullaryThunk_Funky_Core_Tests_Options_OptionTests_ArbitraryOptionIntTest_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.OptionTests.ArbitraryOptionIntTest
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionTests.ArbitraryOptionIntTest
+  nameWithType: OptionTests.ArbitraryOptionIntTest
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionTests.CastingIntToSomethingHasSameValueAsOriginalInt
+  name: CastingIntToSomethingHasSameValueAsOriginalInt()
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.html#NullaryThunk_Funky_Core_Tests_Options_OptionTests_CastingIntToSomethingHasSameValueAsOriginalInt
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.OptionTests.CastingIntToSomethingHasSameValueAsOriginalInt
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionTests.CastingIntToSomethingHasSameValueAsOriginalInt()
+  nameWithType: OptionTests.CastingIntToSomethingHasSameValueAsOriginalInt()
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionTests.CastingIntToSomethingHasSameValueAsOriginalInt*
+  name: CastingIntToSomethingHasSameValueAsOriginalInt
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.html#NullaryThunk_Funky_Core_Tests_Options_OptionTests_CastingIntToSomethingHasSameValueAsOriginalInt_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.OptionTests.CastingIntToSomethingHasSameValueAsOriginalInt
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionTests.CastingIntToSomethingHasSameValueAsOriginalInt
+  nameWithType: OptionTests.CastingIntToSomethingHasSameValueAsOriginalInt
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionTests.SomethingsHasAllSomethingsFromOriginal
+  name: SomethingsHasAllSomethingsFromOriginal()
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.html#NullaryThunk_Funky_Core_Tests_Options_OptionTests_SomethingsHasAllSomethingsFromOriginal
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.OptionTests.SomethingsHasAllSomethingsFromOriginal
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionTests.SomethingsHasAllSomethingsFromOriginal()
+  nameWithType: OptionTests.SomethingsHasAllSomethingsFromOriginal()
+- uid: NullaryThunk.Funky.Core.Tests.Options.OptionTests.SomethingsHasAllSomethingsFromOriginal*
+  name: SomethingsHasAllSomethingsFromOriginal
+  href: api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.html#NullaryThunk_Funky_Core_Tests_Options_OptionTests_SomethingsHasAllSomethingsFromOriginal_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.OptionTests.SomethingsHasAllSomethingsFromOriginal
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.OptionTests.SomethingsHasAllSomethingsFromOriginal
+  nameWithType: OptionTests.SomethingsHasAllSomethingsFromOriginal
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests
+  name: SomethingOrTests
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html
+  commentId: T:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests
+  nameWithType: SomethingOrTests
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Nothing_Yields_Value_Of_IfNone(System.Int32,System.Int32)
+  name: Nothing_Yields_Value_Of_IfNone(int, int)
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html#NullaryThunk_Funky_Core_Tests_Options_SomethingOrTests_Nothing_Yields_Value_Of_IfNone_System_Int32_System_Int32_
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Nothing_Yields_Value_Of_IfNone(System.Int32,System.Int32)
+  name.vb: Nothing_Yields_Value_Of_IfNone(Integer, Integer)
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Nothing_Yields_Value_Of_IfNone(int, int)
+  fullName.vb: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Nothing_Yields_Value_Of_IfNone(Integer, Integer)
+  nameWithType: SomethingOrTests.Nothing_Yields_Value_Of_IfNone(int, int)
+  nameWithType.vb: SomethingOrTests.Nothing_Yields_Value_Of_IfNone(Integer, Integer)
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Nothing_Yields_Value_Of_IfNone*
+  name: Nothing_Yields_Value_Of_IfNone
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html#NullaryThunk_Funky_Core_Tests_Options_SomethingOrTests_Nothing_Yields_Value_Of_IfNone_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Nothing_Yields_Value_Of_IfNone
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Nothing_Yields_Value_Of_IfNone
+  nameWithType: SomethingOrTests.Nothing_Yields_Value_Of_IfNone
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Something_Yields_Value_Of_Something(System.Int32,System.Int32)
+  name: Something_Yields_Value_Of_Something(int, int)
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html#NullaryThunk_Funky_Core_Tests_Options_SomethingOrTests_Something_Yields_Value_Of_Something_System_Int32_System_Int32_
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Something_Yields_Value_Of_Something(System.Int32,System.Int32)
+  name.vb: Something_Yields_Value_Of_Something(Integer, Integer)
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Something_Yields_Value_Of_Something(int, int)
+  fullName.vb: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Something_Yields_Value_Of_Something(Integer, Integer)
+  nameWithType: SomethingOrTests.Something_Yields_Value_Of_Something(int, int)
+  nameWithType.vb: SomethingOrTests.Something_Yields_Value_Of_Something(Integer, Integer)
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Something_Yields_Value_Of_Something*
+  name: Something_Yields_Value_Of_Something
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html#NullaryThunk_Funky_Core_Tests_Options_SomethingOrTests_Something_Yields_Value_Of_Something_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Something_Yields_Value_Of_Something
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.Something_Yields_Value_Of_Something
+  nameWithType: SomethingOrTests.Something_Yields_Value_Of_Something
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without(System.Int32,System.Int32)
+  name: With_Nothing_Nullary_Yields_Same_As_Without(int, int)
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html#NullaryThunk_Funky_Core_Tests_Options_SomethingOrTests_With_Nothing_Nullary_Yields_Same_As_Without_System_Int32_System_Int32_
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without(System.Int32,System.Int32)
+  name.vb: With_Nothing_Nullary_Yields_Same_As_Without(Integer, Integer)
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without(int, int)
+  fullName.vb: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without(Integer, Integer)
+  nameWithType: SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without(int, int)
+  nameWithType.vb: SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without(Integer, Integer)
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without*
+  name: With_Nothing_Nullary_Yields_Same_As_Without
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html#NullaryThunk_Funky_Core_Tests_Options_SomethingOrTests_With_Nothing_Nullary_Yields_Same_As_Without_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without
+  nameWithType: SomethingOrTests.With_Nothing_Nullary_Yields_Same_As_Without
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without(System.Int32,System.Int32)
+  name: With_Something_Nullary_Yields_Same_As_Without(int, int)
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html#NullaryThunk_Funky_Core_Tests_Options_SomethingOrTests_With_Something_Nullary_Yields_Same_As_Without_System_Int32_System_Int32_
+  commentId: M:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without(System.Int32,System.Int32)
+  name.vb: With_Something_Nullary_Yields_Same_As_Without(Integer, Integer)
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without(int, int)
+  fullName.vb: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without(Integer, Integer)
+  nameWithType: SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without(int, int)
+  nameWithType.vb: SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without(Integer, Integer)
+- uid: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without*
+  name: With_Something_Nullary_Yields_Same_As_Without
+  href: api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html#NullaryThunk_Funky_Core_Tests_Options_SomethingOrTests_With_Something_Nullary_Yields_Same_As_Without_
+  commentId: Overload:NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without
+  isSpec: "True"
+  fullName: NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without
+  nameWithType: SomethingOrTests.With_Something_Nullary_Yields_Same_As_Without
