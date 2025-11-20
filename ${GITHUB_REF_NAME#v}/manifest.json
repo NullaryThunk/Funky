@@ -1,0 +1,270 @@
+{
+  "source_base_path": "/home/runner/work/Funky/Funky/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.ISomething-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.ISomething-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options.ISomething<T>",
+      "Summary": "<p sourcefile=\"api/NullaryThunk.Funky.Core.Options.ISomething-1.yml\" sourcestartlinenumber=\"1\">An <xref href=\"NullaryThunk.Funky.Core.Options.Option%601\" data-throw-if-not-resolved=\"false\"></xref> that has a meaningful value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.Nothing-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.Nothing-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options.Nothing<T>",
+      "Summary": "<p sourcefile=\"api/NullaryThunk.Funky.Core.Options.Nothing-1.yml\" sourcestartlinenumber=\"1\">An <xref href=\"NullaryThunk.Funky.Core.Options.Option%601\" data-throw-if-not-resolved=\"false\"></xref> that has no meaningful value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.Nothing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.Nothing.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options.Nothing",
+      "Summary": "<p sourcefile=\"api/NullaryThunk.Funky.Core.Options.Nothing.yml\" sourcestartlinenumber=\"1\">An object with no meaningful value. Represents the absence of a value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.O.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.O.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options.O",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.Option-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.Option-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options.Option<T>",
+      "Summary": "<p sourcefile=\"api/NullaryThunk.Funky.Core.Options.Option-1.yml\" sourcestartlinenumber=\"1\">Represents the possibility of a <code class=\"typeparamref\">T</code>.\nAn <xref href=\"NullaryThunk.Funky.Core.Options.Option%601\" data-throw-if-not-resolved=\"false\"></xref> can be either <xref href=\"NullaryThunk.Funky.Core.Options.Something%601\" data-throw-if-not-resolved=\"false\"></xref> or <xref href=\"NullaryThunk.Funky.Core.Options.Nothing%601\" data-throw-if-not-resolved=\"false\"></xref>.\nIf it is a <xref href=\"NullaryThunk.Funky.Core.Options.Something%601\" data-throw-if-not-resolved=\"false\"></xref> then it contains a value of <typeparam name=\"T\"></typeparam>.\nUse pattern matching to match on an <xref href=\"NullaryThunk.Funky.Core.Options.Option%601\" data-throw-if-not-resolved=\"false\"></xref></p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.OptionFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.OptionFunctions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options.OptionFunctions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.Something-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.Something-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options.Something<T>",
+      "Summary": "<p sourcefile=\"api/NullaryThunk.Funky.Core.Options.Something-1.yml\" sourcestartlinenumber=\"1\">An <xref href=\"NullaryThunk.Funky.Core.Options.Option%601\" data-throw-if-not-resolved=\"false\"></xref> that has a meaningful value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.Something.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.Something.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options.Something",
+      "Summary": "<p sourcefile=\"api/NullaryThunk.Funky.Core.Options.Something.yml\" sourcestartlinenumber=\"1\">An <xref href=\"NullaryThunk.Funky.Core.Options.Option%601\" data-throw-if-not-resolved=\"false\"></xref> that has no meaningful value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Options.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Options",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Tests.Options.OptionGenerators.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Tests.Options.OptionGenerators",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Tests.Options.OptionTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Tests.Options.OptionTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Tests.Options.SomethingOrTests",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/NullaryThunk.Funky.Core.Tests.Options.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/NullaryThunk.Funky.Core.Tests.Options.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "NullaryThunk.Funky.Core.Tests.Options",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
