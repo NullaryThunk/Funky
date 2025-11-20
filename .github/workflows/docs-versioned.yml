@@ -1,4 +1,4 @@
-name: Build & Deploy Latest Docs
+name: Build & Deploy Versioned Docs
 
 on:
   push:
@@ -25,4 +25,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/_site
-          destination_dir: ${GITHUB_REF_NAME#v}
+          destination_dir: ${{github.ref_name}}
